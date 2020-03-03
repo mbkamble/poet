@@ -262,7 +262,7 @@
   `(ein:cell-input-prompt ((t (:foreground ,org-tag :background ,bg))))
   `(ein:cell-output-prompt ((t (:foreground ,org-tag :background ,bg)))))
  (custom-theme-set-variables 'poet-dark-monochrome
-  '(line-spacing .2)
+  ;; '(line-spacing .2)
   `(fci-rule-color ,fci)))
 
 ;;;###autoload

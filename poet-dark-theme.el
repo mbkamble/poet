@@ -91,7 +91,7 @@
       (shadow "#999999")
       (secondary-bg "#000000")
       (trailing-bg "#ff8a65")
-      (fci "#dedede")
+      (fci "#EDE7dd")
       (lazy-hlt-fg "#000000")
       (lazy-hlt-bg "#ffffff")
       (evil-rep-fg "#ffffff")
@@ -175,7 +175,7 @@
   `(mode-line-highlight ((t (:background ,mode-line-hlt))))
   `(mode-line-inactive ((t (:inherit mode-line :background ,bg :foreground ,mode-line-inactive :box (:color ,bg :line-width 3)))))
   `(error ((t (:foreground ,error :inherit fixed-pitch))))
-  `(font-lock-comment-face ((t (:foreground ,muted :inherit fixed-pitch))))
+  `(font-lock-comment-face ((t (:slant italic :foreground ,muted :inherit fixed-pitch))))
   `(font-lock-builtin-face ((t (:foreground ,builtin :inherit fixed-pitch))))
   `(font-lock-string-face ((t (:inherit fixed-pitch :foreground ,string))))
   `(font-lock-function-name-face ((t (:inherit fixed-pitch :foreground ,function-name))))
@@ -262,7 +262,7 @@
   `(ein:cell-input-prompt ((t (:foreground ,org-tag :background ,bg))))
   `(ein:cell-output-prompt ((t (:foreground ,org-tag :background ,bg)))))
  (custom-theme-set-variables 'poet-dark
-  '(line-spacing .2)
+  ;; '(line-spacing .2)
   `(fci-rule-color ,fci)))
 
 ;;;###autoload
